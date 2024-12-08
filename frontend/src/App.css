@@ -1,0 +1,63 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.task-form {
+  margin-bottom: 20px;
+}
+
+.task-form input {
+  margin: 5px;
+  padding: 8px;
+}
+
+.task-item {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 10px auto;
+  width: 300px;
+}
+
+button {
+  margin: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+  border: none;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+/* Add Task button */
+button[type="submit"] {
+  background-color: #4CAF50; /* Green background */
+}
+
+button[type="submit"]:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+button[type="submit"]:disabled {
+  background-color: #ccc; /* Gray color for disabled state */
+  cursor: not-allowed;
+}
+
+/* Edit and Delete Buttons */
+button:nth-child(1) {
+  background-color: #4CAF50; /* Green for Edit */
+}
+
+button:nth-child(2) {
+  background-color: #f44336; /* Red for Delete */
+}
+
+button:nth-child(1):hover {
+  background-color: #45a049; /* Darker Green for Edit */
+}
+
+button:nth-child(2):hover {
+  background-color: #e53935; /* Darker Red for Delete */
+}
