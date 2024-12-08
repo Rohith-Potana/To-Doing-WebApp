@@ -80,5 +80,3 @@ cd To-Doing-WebApp
 ## **Contact**
 **Rohith Potana**  
 Email: [potanarohith@gmail.com](mailto:potanarohith@gmail.com)🚀
-
-### **Screenshot**  
